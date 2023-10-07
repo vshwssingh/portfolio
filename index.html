@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishwas Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+
+        }
+
+        body {
+            background-color: rgb(0, 0, 23);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 90px;
+            background-color: rgb(22, 22, 52);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 0 23px;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            list-style: none;
+            margin: 0 23px;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(158, 158, 236);
+            font-size: 2.05;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+            margin: 50px 0;
+        }
+
+        .rightSection {}
+
+        .rightSection img {
+            margin-left: -117px;
+            width: 807px;
+            height: 494px;
+
+        }
+
+        .purple {
+            color: blueviolet;
+
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        main hr {
+            border: 0;
+            background: blueviolet;
+            height: 1px;
+            margin: 40px 84px;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .grey {
+            color: grey;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 112px 0px;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: aliceblue;
+            margin: 0 170px;
+
+        }
+
+        .vertical-text {
+
+            position: relative;
+            top: 21px;
+            width: 151px;
+        }
+
+        .vertical-desc {
+            top: 30px;
+            position: relative;
+            color: grey;
+            width: 150px;
+            font-size: 11px;
+        }
+
+        .image-top {
+            width: 93px;
+            left: -49px;
+            top: -66px;
+            position: relative;
+
+        }
+
+        .btn-outline-light {
+            width: 193px;
+            height: 62px;
+            font-size: 1.3rem;
+            margin: 22px 0;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Vishwa's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href=""> Home </a></li>
+                    <li><a href=""> About </a></li>
+                    <li><a href=""> Services </a></li>
+                    <li><a href=""> Projects </a></li>
+                    <li><a href=""> Contact Me</a> </li>
+                </ul>
+
+
+            </div>
+        </nav>
+    </header>
+    <main>
+        <Section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Vishwas</span>
+                <div>I am </div>
+                <span id="element" class="purple"></span>
+
+                <div class="resumegit">
+                    <button type="button" class="btn btn-outline-light">Resume</button>
+                    <button type="button" class="btn btn-outline-light " style="margin: 22px;">Github</button>
+
+                </div>
+
+
+            </div>
+            <div class="rightSection">
+                <img src="pngegg.png" alt="developer">
+            </div>
+        </Section>
+        <hr class="firend">
+
+        <Section class="secondSection">
+
+            <span class="grey">What I have done so far?</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="PngItem_1765788.png" alt=""
+                        style="width: 53px;left: -32px;     top: -54px;">
+                    <div class="vertical-text">
+                        Software Engineering & Project Management
+                        (Jan 2023 - May 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Under this course I have made a API based flight Reservation System.The website uses the API to
+                        fetch information of the flight and display on our site.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="web-developer.svg" alt="">
+                    <div class="vertical-text">
+                        Frontend Developer Asian Travel Paradise
+                        (June 2023-July 2023)
+                    </div>
+                    <div class="vertical-desc">
+                        Here, I worked as a frontend developer and create full fledged website for tour and travel and I
+                        helped in integrating RazorPayment Gateway to the site for online payement.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="pngwing.com.png" style="top: -84px;" alt="">
+                    <div class="vertical-text">
+                        Data Science Project
+                        (July 2023 - Currently)
+                    </div>
+                    <div class="vertical-desc">
+                        I am developing a Agriculture Optimization Engine using Python programming and the concept of
+                        Artificial Intelligence .
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="web-developer.svg" alt="">
+                    <div class="vertical-text">
+                        Learning Python
+                    </div>
+                    <div class="vertical-desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam harum quam aperiam fugit
+                        porro animi blanditiis cupiditate, ipsum magni accusamus dolorem quidem vero perferendis
+                        facilis, doloremque quis expedita minima tempora.
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+
+        </Section>
+
+
+
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Software Developer', 'Python Developer'],
+            typeSpeed: 60,
+        });
+    </script>
+</body>
+
+</html>
